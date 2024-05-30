@@ -254,7 +254,7 @@
   {
     "name": "AssetManagerController",
     "contractName": "AssetManagerController.sol",
-    "address": "0x3Fa732d58619869Dd2b8f4609aF1d5F8D61ad594",
+    "address": "0x7d243e1832c51e234BC060D510804af48AAe7413",
     "mustSwitchToProduction": true
   },
   {
@@ -265,12 +265,12 @@
   {
     "name": "AssetManager_FtestXRP",
     "contractName": "AssetManager.sol",
-    "address": "0xe5Dad39D3F47d51D0A551BfAE16a8768b413d51f"
+    "address": "0xDFF53E6b3Cb0695C403e703F79231B4358c7E9BB"
   },
   {
     "name": "FtestXRP",
     "contractName": "FAsset.sol",
-    "address": "0x64d34C853CB3aFAcB127Ef2048ED91A6b2CeA539",
+    "address": "0xC4f94495b93F672d2540b139A4512671641Df637",
     "mustSwitchToProduction": true
   },
   {
@@ -286,12 +286,12 @@
   {
     "name": "AssetManager_FfakeXRP",
     "contractName": "AssetManager.sol",
-    "address": "0x750224d3208623B7c424b5a3C006f85954B004B5"
+    "address": "0xBB0dB8706240c6676D978a6E88E886bdB253DdF0"
   },
   {
     "name": "FfakeXRP",
     "contractName": "FAsset.sol",
-    "address": "0x399F32a48230adF2EEbE8a6659140334e1D8b9AF",
+    "address": "0xC46bD7E7fF14a9Bab3D89FFA26e268622a9A9680",
     "mustSwitchToProduction": true
   },
   {
