@@ -27,4 +27,4 @@ To additionally subscribe to receiving agent events on Telegram, put the API key
 
 The following should be done before each closed beta scenario setup:
 1. Run `init.sh` script,
-1. Run `check.sh` script and make sure there is only one address outputted and compare it with our published one???
+1. Run `check.sh` to make sure configuration is correct.
