@@ -1,6 +1,6 @@
 {
     "$schema": "../fasset-bots/packages/fasset-bots-core/run-config/schema/agent-settings.schema.json",
-    "poolTokenSuffix": "NEJC-AGENT-3",
+    "poolTokenSuffix": "",
     "vaultCollateralFtsoSymbol": "testETH",
     "fee": "0.25%",
     "poolFeeShare": "40%",
