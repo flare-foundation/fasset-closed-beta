@@ -9,16 +9,16 @@ It will get updated for each new closed beta scenario, so users only need to pul
 > **Important**
 > WE REQUIRE LINUX!!!! mac also maybe works but use at your own risk
 
-## Steps
+## Local One-Time Setup
 
 Follow the steps below to set up your local environment for the first time:
 1. Make a new folder and `cd` into it,
 1. Run `git clone https://github.com/flare-labs-ltd/fasset-bots.git`,
-1. Run `git clone https://github.com/flare-foundation/fasset-closed-beta`,
+1. Run `git clone https://github.com/flare-foundation/fasset-closed-beta.git`,
 1. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`! (if you do not have the file, see [Secrets](#secrets)),
 1. Obtain an API key via registering on Telegram - see [Telegram](#telegram)
 
-## Scenario setup
+## Scenario Setup
 
 For each new scenario follow the steps below:
 1. `cd` into `fasset-closed-beta`,
@@ -30,10 +30,10 @@ For each new scenario follow the steps below:
 ### Secrets
 
 If you do not have the `secrets.json` file, you should follow the below steps:
-1. Make sure you came here from following #Steps,
+1. Make sure you came here from following [Local One-Time Setup](#local-one-time-setup),
 1. Generate a management address - this is an EVM address that will control your agent for the duration of the closed/open beta,
 1. Obtain `secrets.json` by running `gen-secrets.sh <management_address>`,
-1. Fund your `secrets.owner.native.address` with some CFLR from the [FAsset Faucet](https://faucet.flare.network/).
+1. Fund your `secrets.owner.native.address` and `secrets.user.native.address` with some CFLR from the [FAsset Faucet](https://faucet.flare.network/).
 
 ### Telegram
 
