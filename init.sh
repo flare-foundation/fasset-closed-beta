@@ -7,6 +7,7 @@ if [ ! -d ../fasset-bots ]; then
     exit 1
 fi
 
+git pull origin develop
 cd ../fasset-bots
 git checkout private_beta
 git pull origin private_beta
