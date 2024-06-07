@@ -4,10 +4,13 @@ This repository serves as a virtual control environment for FAsset closed beta p
 It will get updated for each new closed beta scenario, so users only need to pull the new version to set up their environment.
 
 > **Important**
-> DO NOT LEAVE THIS REPO, AFTER CLONING FORGET FASSET-BOTS!!!!
+> DO NOT LEAVE THIS REPO, AFTER CLONING FORGET FASSET-BOTS! ALL COMMANDS MUST BE RUN FROM FASSET-CLOSED-BETA REPO!
 
 > **Important**
 > WE REQUIRE LINUX!!!! mac also maybe works but use at your own risk
+
+> **Important**
+> All communication regarding scenario schedule will be communicated on Telegram.
 
 ## Local One-Time Setup
 
@@ -23,7 +26,11 @@ Follow the steps below to set up your local environment for the first time:
 For each new scenario follow the steps below:
 1. `cd` into `fasset-closed-beta`,
 1. Run `init.sh`,
-1. Run `check.sh` to make sure your configuration is correct.
+1. Run `check.sh` to make sure your configuration is correct. The return must be 
+```
+Correct configuration setup! (agent ...)
+```
+4. Continue on https://fasset-beta-simulator.flare.rocks/fasset-scenario
 
 ## Additional information
 
