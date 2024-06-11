@@ -26,7 +26,7 @@ Follow the steps below to set up your local environment for the first time:
 For each new scenario follow the steps below:
 1. `cd` into `fasset-closed-beta`,
 1. Run `init.sh`,
-1. Run `check.sh` to make sure your configuration is correct. The return must be 
+1. Run `check.sh` to make sure your configuration is correct.
 ```
 Correct configuration setup! (agent ...)
 ```
@@ -45,7 +45,7 @@ If you do not have the `secrets.json` file, you should follow the below steps:
 ### Telegram
 
 To officially register and get your closed beta API key, do the following:
-1. Go to our [FAsset Telegram bot](https://t.me/FlareFAssetsBot),
+1. Go to our [FAsset Telegram bot](https://t.me/FlareFAssets_ClosedBetaBot),
 1. Start the bot by running `/start`, then click `Register`, and input the required info,
 1. Wait for us to confirm your registration info,
 1. Run (send message) `/events`, click `Subscribe to Events`, and receive your API key.
