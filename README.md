@@ -13,6 +13,7 @@ It will get updated for each new closed beta scenario, so users only need to pul
 
 Follow the steps below to set up your local environment for the first time:
 1. Run `git clone --recurse-submodules https://github.com/flare-foundation/fasset-closed-beta.git`,
+1. `cd` into `fasset-closed-beta`,
 1. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`! (if you do not have the file, see [Secrets](#secrets)),
 1. Obtain an API key via registering on Telegram - see [Telegram](#telegram)
 
