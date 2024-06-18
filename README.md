@@ -20,7 +20,6 @@ Follow the steps below to set up your local environment for the first time:
 ## Scenario Setup
 
 For each new scenario follow the steps below:
-1. `cd` into `fasset-closed-beta`,
 1. Run `init.sh`,
 1. Run `check.sh` to make sure your configuration is correct.
 ```
