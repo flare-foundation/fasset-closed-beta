@@ -4,9 +4,6 @@ This repository serves as a virtual control environment for FAsset closed beta p
 It will get updated for each new closed beta scenario, so users only need to pull the new version to set up their environment.
 
 > **Important**
-> DO NOT LEAVE THIS REPO, AFTER CLONING FORGET FASSET-BOTS! ALL COMMANDS MUST BE RUN FROM FASSET-CLOSED-BETA REPO!
-
-> **Important**
 > WE REQUIRE LINUX!!!! mac also maybe works but use at your own risk
 
 > **Important**
@@ -15,9 +12,7 @@ It will get updated for each new closed beta scenario, so users only need to pul
 ## Local One-Time Setup
 
 Follow the steps below to set up your local environment for the first time:
-1. Make a new folder and `cd` into it,
-1. Run `git clone https://github.com/flare-labs-ltd/fasset-bots.git`,
-1. Run `git clone https://github.com/flare-foundation/fasset-closed-beta.git`,
+1. Run `git clone --recurse-submodules https://github.com/flare-foundation/fasset-closed-beta.git`,
 1. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`! (if you do not have the file, see [Secrets](#secrets)),
 1. Obtain an API key via registering on Telegram - see [Telegram](#telegram)
 

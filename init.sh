@@ -8,7 +8,7 @@ if [ ! -d ../fasset-bots ]; then
 fi
 
 git pull origin develop
-cd ../fasset-bots
+cd ./fasset-bots
 git checkout private_beta
 git pull origin private_beta
 yarn
