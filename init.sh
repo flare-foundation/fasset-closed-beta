@@ -2,13 +2,13 @@
 
 set -e
 
-if [ ! -d ../fasset-bots ]; then
-    echo "Missing directory ../fasset-bots. Please checkout 'https://github.com/flare-labs-ltd/fasset-bots.git' in the parent directory."
+if [ ! -d ./fasset-bots ]; then
+    echo "Missing directory fasset-bots. Please run 'git submodule update --remote --merge'."
     exit 1
 fi
 
 git pull origin develop
-cd ../fasset-bots
+cd ./fasset-bots
 git checkout private_beta
 git pull origin private_beta
 yarn

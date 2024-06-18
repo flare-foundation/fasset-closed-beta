@@ -1,3 +1,5 @@
+#!/bin/bash
+
 address=0xc5D92579393940ddDc68374B30444Fe900Db7A16
 agents=$(./user-bot.sh agents --all -f FSimCoinX | grep -Eo ^[0-9a-zA-Z]{42})
 
