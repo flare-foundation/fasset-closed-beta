@@ -15,7 +15,8 @@ Follow the steps below to set up your local environment for the first time:
 1. Run `git clone --recurse-submodules https://github.com/flare-foundation/fasset-closed-beta.git`,
 1. `cd` into `fasset-closed-beta`,
 1. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`! (if you do not have the file, see [Secrets](#secrets)),
-1. Obtain an API key via registering on Telegram - see [Telegram](#telegram)
+1. Obtain an API key via registering on Telegram - see [Telegram](#telegram),
+1. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs), connect via metamask with your management address, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument.
 
 ## Scenario Setup
 
@@ -35,7 +36,7 @@ If you do not have the `secrets.json` file, you should follow the below steps:
 1. Make sure you came here from following [Local One-Time Setup](#local-one-time-setup),
 1. Generate a management address - this is an EVM address that will control your agent for the duration of the closed/open beta,
 1. Obtain `secrets.json` by running `gen-secrets.sh <management_address>`,
-1. Fund your `secrets.owner.native.address` and `secrets.user.native.address` with some CFLR from the [FAsset Faucet](https://faucet.flare.network/).
+1. Fund your `secrets.owner.native.address` and `secrets.user.native.address` with some CFLR from the [this Faucet](https://faucet.flare.network/), and some testXRP from the [this faucet](https://faucet.tequ.dev/).
 
 ### Telegram
 
