@@ -5,7 +5,7 @@
         "https://attestation2-coston.aflabs.net/attestation-client"
     ],
     "apiNotifierConfigs": [{
-        "apiUrl": "https://fasset-tg-bot.flare.rocks",
+        "apiUrl": "https://fasset-tg-bot-closed-beta.flare.rocks",
         "apiKey": ""
     }]
 }
