@@ -23,10 +23,7 @@ Follow the steps below to set up your local environment for the first time:
 For each new scenario follow the steps below:
 1. Run `init.sh`,
 1. Run `check.sh` to make sure your configuration is correct.
-```
-Correct configuration setup! (agent ...)
-```
-4. Continue on https://fasset-beta-simulator.flare.rocks/fasset-scenario
+1. Continue on https://fasset-beta-simulator.flare.rocks/fasset-scenario
 
 ## Additional information
 
