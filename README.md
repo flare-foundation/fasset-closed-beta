@@ -21,7 +21,7 @@ Follow the steps below to set up your local environment for the first time. If y
 2. If you don't have the `secrets.json` file set up, see [Secrets](#secrets) guide; otherwise, follow the next step;
 3. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`;
 4. Obtain the API key via registering on Telegram - follow the [Telegram](#telegram) guide;
-5. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs), connect via Metamask with your `management.address` from the `secrets.json`, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument.
+5. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs) smart contract, connect via Metamask with your `management.address` from the `secrets.json`, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument.
 
 ## Scenario Setup
 
@@ -31,12 +31,12 @@ For each new scenario, follow the steps below:
     ```
     init.sh
     ```
-2. Please ensure that the configuration is correct and that the output is green.
+2. Ensure that the configuration is correct and that the output is green.
     ```
     check.sh
     ```
 3. Continue on the [Scenario Testing Tool](https://fasset-beta-simulator.flare.rocks/fasset-scenario) and follow the steps there.
-4. If you need to answer some questions about the [Scenario Testing Tool](https://fasset-beta-simulator.flare.rocks/fasset-scenario), please refer to this [document](https://docs.google.com/document/d/1QblHG_HLMsdE1YfJoZPXQIFhE4AYik-Xhk4Ux4M_jXo/edit?usp=sharing) or ask on Telegram from one of the Flare Developer Relations engineers.
+4. If you need to answer some questions about the [Scenario Testing Tool](https://fasset-beta-simulator.flare.rocks/fasset-scenario), refer to this [document](https://docs.google.com/document/d/1QblHG_HLMsdE1YfJoZPXQIFhE4AYik-Xhk4Ux4M_jXo/edit?usp=sharing) or ask on Telegram from one of the Flare Developer Relations engineers.
 
 ## Additional Setup
 
