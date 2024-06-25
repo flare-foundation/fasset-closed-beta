@@ -5,14 +5,11 @@ It will be updated for each new closed beta scenario, allowing users to pull the
 
 ## Prerequisites
 
-> **Working Directory**
-> All actions should be executed from this directory; navigating elsewhere is unnecessary.
+ℹ️ All actions should be executed from this directory; navigating elsewhere is unnecessary.
 
-> **Operating System Requirement**
-> Linux operating system preferred. macOS also may work, but use at your own risk.
+💻 Linux operating system preferred. macOS also may work, but use at your own risk.
 
-> **Communication**
-> All communication regarding the scenario schedule will be communicated on Telegram.
+⌨️ All communication regarding the scenario schedule will be communicated on Telegram.
 
 ## First Time Setup
 
