@@ -3,6 +3,11 @@
 This repository is a virtual control environment for the FAssets closed beta participants.
 It will be updated for each new closed beta scenario, allowing users to pull the latest version to set up their environment.
 
+## Prerequisites
+
+> **Working Directory**
+> All actions should be executed from this directory; navigating elsewhere is unnecessary.
+
 > **Operating System Requirement**
 > Linux operating system preferred. macOS also may work, but use at your own risk.
 
@@ -60,4 +65,4 @@ To register and get your closed beta API key, do the following:
 2. Start the bot by running `/start`, then click `Register`, and input the required info,
 3. Wait for us to confirm your registration info,
 4. Run (send message) `/events`, click `Subscribe to Events`, and receive your API key.
-5. To subscribe to receiving agent events on Telegram, put the API key from the last step in the local `config.json` file under `apiKey`.
+5. To subscribe to receiving agent events on Telegram, put the API key from the last step in the local `config.json` file under `apiKey` in the current `fasset-closed-beta` directory.
