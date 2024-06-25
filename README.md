@@ -29,11 +29,11 @@ For each new scenario, follow the steps below:
 
 1. Initialize repository:
     ```
-    init.sh
+    ./init.sh
     ```
 2. Ensure that the configuration is correct and that the output is green.
     ```
-    check.sh
+    ./check.sh
     ```
 3. Continue on the [Scenario Testing Tool](https://fasset-beta-simulator.flare.rocks/fasset-scenario) and follow the steps there.
 4. If you need to answer some questions about the [Scenario Testing Tool](https://fasset-beta-simulator.flare.rocks/fasset-scenario), refer to this [document](https://docs.google.com/document/d/1QblHG_HLMsdE1YfJoZPXQIFhE4AYik-Xhk4Ux4M_jXo/edit?usp=sharing) or ask on Telegram from one of the Flare Developer Relations engineers.
@@ -48,7 +48,7 @@ If you do not have the `secrets.json` file, you should follow the below steps:
 2. Generate a management address - this is an EVM address that will control your agent for the duration of the closed/open beta,
 3. Obtain `secrets.json` by running:
     ```
-    gen-secrets.sh <management_address>
+    ./gen-secrets.sh <management_address>
     ```
 4. Fund your `secrets.owner.native.address` and `secrets.user.native.address` with some CFLR from the [this Faucet](https://faucet.flare.network/), and some testXRP from the [this faucet](https://faucet.tequ.dev/).
 
