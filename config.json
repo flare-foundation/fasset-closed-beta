@@ -2,7 +2,7 @@
     "extends": "coston-bot.json",
     "contractsJsonFile": "./coston.json",
     "attestationProviderUrls": [
-        "https://attestation2-coston.aflabs.net/attestation-client"
+        "https://attestation-coston.aflabs.net/attestation-client"
     ],
     "apiNotifierConfigs": [{
         "apiUrl": "https://fasset-tg-bot-closed-beta.flare.rocks",
