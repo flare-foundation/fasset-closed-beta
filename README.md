@@ -26,8 +26,13 @@ Follow the steps below to set up your local environment for the first time. If y
     ```
 2. If you don't have the `secrets.json` file set up, see [Secrets](#secrets) guide; otherwise, follow the next step;
 3. Place your `secrets.json` file in the `fasset-closed-beta` folder under the name `secrets.json`;
-4. Obtain the API key via registering on Telegram - follow the [Telegram](#telegram) guide;
-5. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs) smart contract, connect via Metamask with your `management.address` from the `secrets.json`, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument. Remember that this is a different smart contract from the official docs for the FAssets Open Beta.
+4. Use these values in the `secrets.json` file for the `native_rpc` and `indexer` under the `apiKey` key:
+
+    * `"native_rpc": "AavSehMLhcgz3crQHH5YJ3Rt8GMQGdV9aViGilADXGnTcjij"`
+    * `"indexer": "123456"`
+
+5. Obtain the API key via registering on Telegram - follow the [Telegram](#telegram) guide;
+6. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs) smart contract, connect via Metamask with your `management.address` from the `secrets.json`, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument. Remember that this is a different smart contract from the official docs for the FAssets Open Beta.
 
 ## Scenario Setup
 
