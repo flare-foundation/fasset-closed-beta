@@ -1,4 +1,4 @@
 [submodule "fasset-bots"]
 	path = fasset-bots
 	url = https://github.com/flare-labs-ltd/fasset-bots.git
-	branch = private_beta
+	branch = closed-beta-specific
