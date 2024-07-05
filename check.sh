@@ -1,6 +1,6 @@
 #!/bin/bash
 
-address=0xFA2fCeA25fFC38aF700531b05d289065b22aa6Bf
+address=0xC6C4be463Edf8ce1D3C2025bEfcfA33a68A25887
 agents=$(./user-bot.sh agents --all -f FSimCoinX | grep -Eo ^[0-9a-zA-Z]{42})
 
 export RED='\033[0;31m'
