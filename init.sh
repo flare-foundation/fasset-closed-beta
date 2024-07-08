@@ -9,8 +9,8 @@ fi
 
 git pull origin develop
 cd ./fasset-bots
-git checkout closed-beta-specific
-git pull origin closed-beta-specific
+git checkout private_beta
+git pull origin private_beta
 yarn
 yarn clean
 yarn build
