@@ -68,7 +68,7 @@ If you do not have the `secrets.json` file, you should follow the below steps:
 To register and get your closed beta API key, do the following:
 
 1. Go to our [FAsset Telegram bot](https://t.me/FlareFAssets_ClosedBetaBot),
-2. Start the bot by running `/start`, then click `Register`, and input the required info,
+2. Start the bot by running `/start`, then click `Register`, and input the required info, including your user address that is `user.native.address` from the `secrets.json` file,
 3. Wait for us to confirm your registration info,
 4. Run (send message) `/events`, click `Subscribe to Events`, and receive your API key.
 5. To subscribe to receiving agent events on Telegram, put the API key from the last step in the local `config.json` file under `apiKey` in the current `fasset-closed-beta` directory.
