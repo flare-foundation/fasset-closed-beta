@@ -269,29 +269,29 @@
   {
     "name": "AssetManagerController",
     "contractName": "AssetManagerController.sol",
-    "address": "0x1e4008fA6Cd16321Ad96181E75a7db2deDb0BF02",
+    "address": "0xaA4Fe5776E4a1E8f1194eBD46f0E22D2B7FC5e5E",
     "mustSwitchToProduction": true
   },
   {
     "name": "AssetManager_FTestXRP",
     "contractName": "AssetManager.sol",
-    "address": "0x431603E3a2982c0E28ef307eEF9adAd013c8B301"
+    "address": "0xAd51e9a3851867A84d1B8653c0F3aAedce797C7B"
   },
   {
     "name": "FTestXRP",
     "contractName": "FAsset.sol",
-    "address": "0x29422c6dd1545dB338ed29a23C4ea4F3Eaf3f6F7",
+    "address": "0xF09E400356254B8A07845B03a8685c530aD0c047",
     "mustSwitchToProduction": true
   },
   {
     "name": "AssetManager_FSimCoinX",
     "contractName": "AssetManager.sol",
-    "address": "0x1236dea4Da97C845480649149C3D8752b2d184d1"
+    "address": "0x7B8C24bff316197Ae3ba22bDa6D4E992FBfCE2E1"
   },
   {
     "name": "FSimCoinX",
     "contractName": "FAsset.sol",
-    "address": "0x372D44162703a418D15F66633b04c88cD479264F",
+    "address": "0x7cE36cB47f6CF98259b7E9a05C5CA22250EeD18D",
     "mustSwitchToProduction": true
   },
   {
