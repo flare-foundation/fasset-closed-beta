@@ -4,8 +4,7 @@
     "attestationProviderUrls": [
         "https://attestation-coston.aflabs.net/attestation-client"
     ],
-    "apiNotifierConfigs": [{
-        "apiUrl": "https://fasset-tg-bot-closed-beta.flare.rocks",
-        "apiKey": ""
-    }]
+    "agentBotSettings": {
+        "liquidationPreventionFactor": "0"
+    }
 }
