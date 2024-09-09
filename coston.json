@@ -274,7 +274,7 @@
   {
     "name": "AssetManagerController",
     "contractName": "AssetManagerController.sol",
-    "address": "0xB47F817D5D7Bd4C2f06dc72c91E62C2aE2E6DA11",
+    "address": "0x2769f7E57255903D018c85017F550DA6a7AAfA67",
     "mustSwitchToProduction": true
   },
   {
@@ -285,46 +285,46 @@
   {
     "name": "AssetManager_FTestXRP",
     "contractName": "AssetManager.sol",
-    "address": "0x03d0a85E3532E9150F089D80510eCDeFdA7a6Dcd",
+    "address": "0xEE727caafba75827848B9c06A3Ea9132a92709B4",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestXRP",
     "contractName": "FAssetProxy.sol",
-    "address": "0x9EA4cad3E7c2E8f107B10a331f3E4641ca187aFf"
+    "address": "0x99373Cd3Ac4E8850F566A2D9fd80A387cB1f2C57"
   },
   {
     "name": "AssetManager_FSimCoinX",
     "contractName": "AssetManager.sol",
-    "address": "0x155e31a13e7b91DD1708fd13541ECbaE437e45e3",
+    "address": "0xB506c6d18A59e277B2AB53EaeE774A6EBaCE8545",
     "mustSwitchToProduction": true
   },
   {
     "name": "FSimCoinX",
     "contractName": "FAssetProxy.sol",
-    "address": "0x58fe9fD1B354Fb4D46e040287141746629478e63"
+    "address": "0x1e35371666a1CdaDf18CBC219Ee97452A078572c"
   },
   {
     "name": "AssetManager_FTestBTC",
     "contractName": "AssetManager.sol",
-    "address": "0xDd11C14a6d3Fa4cC9F71719797DaD6eaefC94486",
+    "address": "0xcDE41f6ef55ADdf2A60352a75B5CfFa064096615",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestBTC",
     "contractName": "FAssetProxy.sol",
-    "address": "0x9655564fC86DEB3D43bD7bb37B37bDA734fdD515"
+    "address": "0x3e186d69d3B3E7a6471DAA3B9C0B34F5e1E539E1"
   },
   {
     "name": "AssetManager_FTestDOGE",
     "contractName": "AssetManager.sol",
-    "address": "0xF13e330E0D55868C05042D158e58CeC322640Bd2",
+    "address": "0xccd3b03958899e10dcF1783e85247D4aB1Ff8359",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestDOGE",
     "contractName": "FAssetProxy.sol",
-    "address": "0xD9F28AF8Eb6D12c06C341857FCdEBcA700760A12"
+    "address": "0x226D1629CBbd6139b1638b08F6140D4c84651Ba4"
   },
   {
     "name": "AssetManagerInit",
