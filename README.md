@@ -22,7 +22,7 @@ It will be updated for each new closed beta scenario, allowing users to pull the
 1. [Download](https://www.docker.com/products/docker-desktop/) and install Docker Desktop.
 2. Start the MySQL server as a Docker container `docker compose up -d` and keep it running every time you run the scenario.
 3. Enter the MySQL as root with password root (default) and execute the `init.mysql.sql` file to create the `fassetbot` user and set permissions.
-4.Set up the database `user` and `password` in the `secrets.json` by adding this block to the list and changing the password to the one you use.:
+4.Set up the database `user` and `password` in the `secrets.json` by adding this block to the list and changing the password to the one you use:
 	```
 	"database": {
 	    "user": "fassetbot",
@@ -30,7 +30,6 @@ It will be updated for each new closed beta scenario, allowing users to pull the
  	}
 	```
 5. Please change the value of `extends` to `coston-bot-mysql.json` in the `config.json` file.
-6. Run the MySQL with
 
 ## First Time Setup
 
