@@ -29,7 +29,7 @@ It will be updated for each new closed beta scenario, allowing users to pull the
         "password": "my1beta2password3"
  	}
 	```
-5. Please update the value of `extends` to `coston-bot-mysql.json` in the `config.json` file.
+5. Please change the value of `extends` to `coston-bot-mysql.json` in the `config.json` file.
 
 ## First Time Setup
 
