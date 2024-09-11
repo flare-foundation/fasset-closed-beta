@@ -15,9 +15,27 @@ It will be updated for each new closed beta scenario, allowing users to pull the
 
 🔢 Use the `yarn` version that is included with this tool.
 
+🧵 [Docker](https://www.docker.com/products/docker-desktop/) to run the MySQL database.
+
+## Install MySQL database with Docker
+
+1. [Download](https://www.docker.com/products/docker-desktop/) and install Docker Desktop.
+2. Start the MySQL server as a Docker container `docker compose up -d` and keep it running every time you run the scenario.
+3. Enter the MySQL as root with password root (default) and execute the `init.mysql.sql` file to create the `fassetbot` user and set permissions.
+4.Set up the database `user` and `password` in the `secrets.json` by adding this block to the list and changing the password to the one you use:
+	```
+	"database": {
+	    "user": "fassetbot",
+        "password": "my1beta2password3"
+ 	}
+	```
+5. Please change the value of `extends` to `coston-bot-mysql.json` in the `config.json` file.
+
 ## First Time Setup
 
-Follow the steps below to set up your local environment for the first time. If you have set the environment before, go to [Scenario Setup](#scenario-setup).
+Follow the steps below to set up your local environment for the first time. 
+
+If you have set the environment before, go to [Scenario Setup](#scenario-setup).
 
 1. Clone the repository end and enter the folder
     ```
@@ -35,6 +53,8 @@ Follow the steps below to set up your local environment for the first time. If y
 6. Go to [Agent Owner Registry](https://coston-explorer.flare.network/address/0x746cBEAa5F4CAB057f70e10c2001b3137Ac223B7/write-contract#address-tabs) smart contract, connect via Metamask with your `management.address` from the `secrets.json`, and call `setWorkAddress` with your `secrets.owner.native.address` as an argument. Remember that this is a different smart contract from the official docs for the FAssets Open Beta.
 
 ## Scenario Setup
+
+If you have set up the environment before, check if the `testBTC` is set up in the `secrets.json` file. If not, follow the guide on [set up testBTC](#set-up-testBTC).
 
 For each new scenario, follow the steps below:
 
@@ -72,3 +92,24 @@ To register and get your closed beta API key, do the following:
 3. Wait for us to confirm your registration info,
 4. Run (send message) `/events`, click `Subscribe to Events`, and receive your API key.
 5. To subscribe to receiving agent events on Telegram, put the API key from the last step in the local `config.json` file under `apiKey` in the current `fasset-closed-beta` directory.
+
+### Set Up testBTC
+
+1. Move the existing `secrets.json` file to `secrets.json.backup`
+	```
+	mv secrets.json secrets.json.backup
+	```
+2. Generate a new one with the same management address that you have right now
+	```
+	./gen-secrets.sh MANAGEMENT_ADDRESS
+	```
+3. Rename the new secrets.json
+	```
+	mv secrets.json secrets.json.new
+	```
+4. Rename back the original the `secrets.json`
+	```
+	mv secrets.json.backup secrets.json
+	```
+5. Copy the `testBTC` blocks from the from the `secrets.json.new` from `owner` and `user` to the `secrets.json` accordingly
+6. Remove the `secrets.json.new` file
