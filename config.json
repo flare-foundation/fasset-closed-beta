@@ -6,5 +6,9 @@
     ],
     "agentBotSettings": {
         "liquidationPreventionFactor": "0"
+    },
+    "FTestXRP": {
+        "recommendedOwnerBalance": "25",
+        "minimumFreeUnderlyingBalance": "0"
     }
 }
