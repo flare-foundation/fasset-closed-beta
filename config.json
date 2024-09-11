@@ -5,12 +5,6 @@
         "https://attestation-coston.aflabs.net/attestation-client"
     ],
     "agentBotSettings": {
-        "liquidationPreventionFactor": "0",
-        "fAssets": {
-            "FSimCoinX": {
-                "recommendedOwnerBalance": "25",
-                "minimumFreeUnderlyingBalance": "0"
-            }
-        }
+        "liquidationPreventionFactor": "0"
     }
 }
