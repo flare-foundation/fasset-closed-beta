@@ -11,9 +11,10 @@ services:
       MYSQL_USER: 'fassetbot'
       MYSQL_PASSWORD: 'my1beta2password3'
     volumes:
-      - ./data:/var/lib/mysql  # Persistent data storage
+      - ./data:/var/lib/mysql
+      - ./init.mysql.sql:/docker-entrypoint-initdb.d/init.mysql.sql # Initialization SQL file
     ports:
-      - "3306:3306"  # Expose MySQL to macOS host
+      - "3306:3306"
     healthcheck:
       test: ['CMD', 'mysqladmin', 'ping', '-h', '127.0.0.1', '-u', 'root', '-p$MYSQL_ROOT_PASSWORD']
       timeout: 20s
