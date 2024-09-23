@@ -6,6 +6,9 @@
     ],
     "agentBotSettings": {
         "liquidationPreventionFactor": "0",
+        "trustedPingSenders": [
+            "0xcb534e6f1458087165e3c55c4F7ac329B45EfbDc"
+        ],
         "fAssets": {
             "FSimCoinX": {
                 "recommendedOwnerBalance": "25",
