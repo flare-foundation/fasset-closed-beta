@@ -274,7 +274,7 @@
   {
     "name": "AssetManagerController",
     "contractName": "AssetManagerController.sol",
-    "address": "0xef6604233BAb31Ad89d6a96aec62D466B1c6a596",
+    "address": "0x076c4a9F85A424c677A41f097D15B3471C1e4aEC",
     "mustSwitchToProduction": true
   },
   {
@@ -285,51 +285,51 @@
   {
     "name": "AssetManager_FTestXRP",
     "contractName": "AssetManager.sol",
-    "address": "0xF924B2AE66D219bC171001eDb78EA2a5446a75cB",
+    "address": "0xDBf74660C3Fd96185cDc787016D08dc8768b5308",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestXRP",
     "contractName": "FAssetProxy.sol",
-    "address": "0xa1C2fd2e880163dbf60E72adc3B824B40d840068"
+    "address": "0xAc383A55668B89ad720A93475402e78eD60fBa56"
   },
   {
     "name": "AssetManager_FSimCoinX",
     "contractName": "AssetManager.sol",
-    "address": "0x7Df62Be1CA2284592A76b5ab453C23056CA42789",
+    "address": "0xd1BDD3e04beBBD857d349340e003b28b3cEE0e8f",
     "mustSwitchToProduction": true
   },
   {
     "name": "FSimCoinX",
     "contractName": "FAssetProxy.sol",
-    "address": "0x59104640A3606717e6420D8Bd46cDA773DD2C743"
+    "address": "0x8c723a927D7Be07Eb9109Fb0C6f73e11C3B3C670"
   },
   {
     "name": "AssetManager_FTestBTC",
     "contractName": "AssetManager.sol",
-    "address": "0x611291cc3a5F0cE9131656Db2cB7512C0F558fB2",
+    "address": "0x2DE9246875EB8C9380aa51990E6fc2902A217a43",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestBTC",
     "contractName": "FAssetProxy.sol",
-    "address": "0xbB94b297E97F94837119f9Ecb022F9e505Bef2b6"
+    "address": "0xcEdEAa4B57071Ae73A6B01520020D284368DA34b"
   },
   {
     "name": "AssetManager_FTestDOGE",
     "contractName": "AssetManager.sol",
-    "address": "0x9C4640288A0FD922C7E0a9ab31A695657a66cD46",
+    "address": "0xA3C25F4667D55fBEe8a491FcB39Bf10d88Ce432B",
     "mustSwitchToProduction": true
   },
   {
     "name": "FTestDOGE",
     "contractName": "FAssetProxy.sol",
-    "address": "0x7BF07fee730f5fc195731280d9A9c7A401bfa581"
+    "address": "0xA8A90afF6DA1F06cCCF56650B216251FB81ebF00"
   },
   {
     "name": "AssetManagerInit",
     "contractName": "AssetManagerInit.sol",
-    "address": "0x9628dCc0F91FB810De43fd54e256Fb533C2AF36b"
+    "address": "0x29E15DaD49469AB2B2f61Fd264011EcDac6A6F92"
   },
   {
     "name": "AssetManagerDiamondCutFacet",
